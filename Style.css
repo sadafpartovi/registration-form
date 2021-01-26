@@ -1,0 +1,407 @@
+
+    /* Top Section */
+
+
+
+* {
+    box-sizing: border-box;
+
+}
+h1{
+    text-transform: uppercase;
+    font-size: 20px;
+   
+
+}
+
+body {
+    
+    text-align: center;
+    
+    font-family: 'Merriweather', serif;
+
+}
+
+.nav {
+    background: #123135;
+    color: white;
+    margin: 0;
+    padding: 25px;
+    
+}
+
+
+
+legend {
+    color: darkslategray;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+
+}
+
+p {
+
+    color: gray;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: lighter;
+
+}
+
+.first-line {
+    
+    border-top: 4px solid #123135;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 35px;
+   
+
+}
+
+.second-line {
+    
+    border-top: 2px solid #123135;
+    margin-top: -4px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+
+   /* Middle Section */
+
+.mid-title {
+   
+    text-align: left;
+    font-size: 20px;
+    font-weight: bolder;
+
+
+}
+
+.inline {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+label {
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: gray;
+
+}
+
+input {
+    height: 40px;
+    background: #F0F0F0;
+    border: none;
+    border-radius: 5px;
+    
+   
+
+}
+
+input:active {
+    border: solid 1px #123135;
+    
+
+}
+
+input:focus {
+    border: solid 1px #123135;
+    
+
+}
+
+.inline {
+    margin-bottom: 10px;
+
+}
+
+
+
+select {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background: #F0F0F0;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+select:disabled {
+    color: gray;
+
+}
+
+#zip {
+    width: 50%;
+
+}
+
+.third-line {
+    margin-top: 40px;
+    border-top: 2px solid #123135;
+    margin-bottom: -40px;
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+
+
+/* Secondary content */
+
+
+   
+
+
+.newsletter {
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 5px;
+    
+
+}
+
+input[type="checkbox"]
+{
+    vertical-align:middle;
+   
+}
+
+::placeholder { 
+    color: lightgray;
+    font-style: italic;
+    text-align: right;
+    padding-right: 20px;
+}
+
+
+
+
+
+
+.check {
+    margin-bottom: -10px;
+
+}
+
+.second-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.checkbox {
+    align-self: flex-start;
+    margin-top: -500px;
+
+}
+
+fieldset {
+    margin-top: 50px;
+    border: none;
+
+}
+
+
+input[type="radio"] {
+    vertical-align: middle;
+}
+
+
+.third-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}   
+
+
+
+.radiobox {
+    align-self: flex-start;
+   
+
+}
+
+.format {
+    margin-top: 30px;
+    margin-left: 15px;
+
+}
+
+.topic {
+    margin-top: 30px; 
+
+}
+
+.radiob {
+    margin-top: -10px;
+    margin-left: 10px;
+
+}
+
+textarea {
+    width: 99%;
+    margin: 0 auto;
+    height: 100px;
+    background: #F0F0F0;
+    border-radius: 5px;
+    border: none;
+
+}
+
+button {
+    display: block;
+    width: 99%;
+    margin: 0 auto;
+    background: LightSeaGreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bolder;
+
+
+
+}
+
+.state {
+    color: gray;
+    font-weight: lighter;
+    
+
+}
+
+
+
+/* Footer Section */
+
+footer {
+    text-align:  center;
+    
+}
+
+.footer {
+
+    font-style: italic;
+    font-weight: lighter;
+    color:lightgray;
+    font-size: 15px;
+    margin-bottom: 200px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+   
+    .main-body {
+        min-width: 60%;
+        max-width: 60%;
+        margin: 0 auto;
+        height: 100%;
+
+    }
+
+    #zip {
+        width: 25%;
+    
+       }
+
+
+       .inline {
+        display: block;
+        text-align: left;
+        margin-right: 0;
+        margin-right: 0;
+       
+       }
+
+    
+    
+
+form {
+    overflow: hidden;
+
+}
+   
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    select {
+       width: 60%;
+        margin-right: 0;
+        text-align: left;
+        height: 40px;
+        margin-bottom: 10px;
+    
+
+    }
+
+   
+
+   label[for="name"],
+   label[for="email"],
+   label[for="tel"],
+   label[for="address"],
+   label[for="city"],
+   label[for="states"],
+   label[for="zip"] {
+
+    
+    margin-right: 5%;
+    width: 30%;
+    display: inline-block;
+    height: 40px;
+  
+   }
+
+   .newsletter {
+    margin-bottom: 4px;
+
+   }
+
+   .format {
+    margin-bottom: 13px;
+
+   }
+
+}
+   
+
+
+
+   
+
+   
+
+
+
+
+   
+
+   
+
+   
+
+
+
+
+
